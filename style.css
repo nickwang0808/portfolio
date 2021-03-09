@@ -25,32 +25,11 @@ h6 {
 
 body {
   --tea: #131313;
-  --fontColor: #d9dee6;
+  --fontColor: #000000;
+  --light-font: #f5f5f5;
   --bg: #2a323f;
   --bg2: #3a4453;
-  --bg3: #282f3b;
   --currentColor: var(--bg);
-  /* transition: 0.3s;
-  position: relative;
-  overflow: auto;
-  background-color: var(--bg);
-  background-attachment: fixed; */
-
-  background: linear-gradient(-45deg, #ca4b24, #af2157, #137497, #138b6f);
-  background-size: 400% 400%;
-  animation: gradient 30s ease infinite;
-}
-
-@keyframes gradient {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
 }
 
 #root {
@@ -172,6 +151,7 @@ header {
   border-radius: 5px;
   display: inline-block;
   cursor: default;
+  color: var(--light-font);
 }
 
 .projectLinks {
@@ -181,7 +161,7 @@ header {
 
 .projectLinks a,
 #resume a {
-  color: var(--fontColor);
+  color: var(--light-font);
   text-decoration: none;
   background-color: var(--bg2);
   border: 3px solid var(--bg2);
@@ -335,7 +315,7 @@ b.aftereffects {
   height: 40px;
   width: 280px;
   margin: 0 auto;
-  color: var(--fontColor);
+  color: var(--light-font);
   border: none;
 }
 
@@ -345,7 +325,7 @@ b.aftereffects {
 
 #copySuccess {
   margin-top: 20px;
-  background-color: rgba(0, 0, 0, 0.61);
+  /* background-color: rgba(0, 0, 0, 0.61); */
   font-size: 20px;
   padding: 5px 10px;
   border-radius: 5px;
@@ -399,7 +379,7 @@ footer a {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: var(--fontColor);
+  color: var(--light-font);
   text-decoration: none;
   font-family: "Roboto Mono";
 }
@@ -537,7 +517,6 @@ footer a {
 
   .projectLinks a,
   #resume a {
-    background-color: transparent;
     margin-right: 5px;
   }
 
