@@ -3,15 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Sher Sheikh - Web Developer - Creating responsive websites from scratch"
-    />
-    <meta
-      name="keywords"
-      content="sher sheikh, portfolio, web development, developer, front end, frontend developer, odin project, breddit, sher-s7"
-    />
-    <meta name="author" content="Sher Sheikh" />
+    <meta name="description" content="Nick Wang's Portfolio" />
+    <meta name="keywords" content="Nick Wang, web developer" />
+    <meta name="author" content="Nick Wag" />
     <link rel="icon" type="image/png" href="favicon-32x32.png?v=0" />
     <link rel="stylesheet" href="normalize.css" />
     <link rel="stylesheet" href="style.css" />
@@ -38,7 +32,7 @@
             <li id="resumeLink"><a href="#resume">resume</a></li>
             <li id="githubLink">
               <a
-                href="https://github.com/sher-s7"
+                href="https://github.com/nickwang0808"
                 target="_blank"
                 rel="noreferrer noopener"
                 >github</a
@@ -51,14 +45,15 @@
       <section class="projectSection">
         <a
           class="prevContainer"
-          href="https://github.com/nickwang0808/movie-swipe"
+          href="https://app.movie-sync.com/"
           target="_blank"
           rel="noreferrer noopener"
         >
           <img
             class="projectPreview"
-            src="assets/partplanner.png"
-            alt="partplanner.png"
+            src="assets/moviesync.png"
+            alt="movie-sync poster"
+            loading="lazy"
         /></a>
         <ul class="createdWith">
           <li>React</li>
@@ -75,28 +70,34 @@
             with your friends similar to Tinder!
           </p>
 
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
-            assumenda alias ratione quaerat? Veniam veritatis eius provident
-            nulla facere eum?
-          </p>
+          <p>It received gained nearly 30k users on launch day.</p>
 
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea
-            assumenda alias ratione quaerat? Veniam veritatis eius provident
-            nulla facere eum?
+            The whole app started as a random designer's post from Reddit. I
+            fell in love with the idea and the design immediately upon seeing
+            it. With a couple of quick DMs, we quickly found a common interest,
+            and the 2-man crew was formed.
+          </p>
+          <p>
+            The app needs to perform real-time match checking server-side. And a
+            front-end deck component that needs to handle drag, snap-back,
+            unload and reload cards.
+          </p>
+          <p>
+            The front-end is built with React and styled-components while the
+            back-end with Node and Firestore.
           </p>
         </div>
         <div class="projectLinks">
           <a
-            href="https://github.com/"
+            href="https://github.com/nickwang0808/movie-swipe"
             target="_blank"
             rel="noreferrer noopener"
             class="sourceCode"
             >SOURCE CODE</a
           >
           <a
-            href="https://github.com/"
+            href="https://app.movie-sync.com/"
             target="_blank"
             rel="noreferrer noopener"
             class="liveDemo"
@@ -114,8 +115,9 @@
         >
           <img
             class="projectPreview"
-            src="assets/breddit.png"
-            alt="breddit.png"
+            src="assets/triedandtruedemo.png"
+            alt="tried and true demo"
+            loading="lazy"
         /></a>
         <ul class="createdWith">
           <li>React</li>
@@ -129,21 +131,28 @@
         </ul>
         <div class="description">
           <p>
-            Created using <b class="react">React.js</b> and
-            <b class="firebase">Firebase</b>, Breddit is fully responsive and
-            includes core features of Reddit such as user profiles, creating
-            groups (subreddits), text, image, and link posts, separate feeds,
-            upvoting and downvoting of posts and comments, nested replies, user
-            settings, and dark mode. Routing is done with
-            <b class="react">React Router</b>.
+            Tried and True is a recipe management app that aims to bring
+            simplicity to your meal planning and recipe management workflow.
           </p>
           <p>
-            This was my first time using React Router and Firebase, so it was a
-            big learning experience. The most challenging part of this project
-            was implementing the nested comments. My initial implementation was
-            slow and made multiple requests to Firebase, but I managed to
-            request all the comments at once, sort them in an effective way, and
-            decrease the loading time immensely.
+            After the brief success of Movie-Sync, I started working on
+            something more functional.
+          </p>
+          <p>
+            Tried and True must be able to parse ingredient strings into
+            meaningful data, generate weekly meal planners, and handle shopping
+            lists.
+          </p>
+          <p>
+            I used Hasura to bootstrap the backend and extended its
+            functionality with an ASP.NET web app. There are 2 separate
+            dockerized microservice APIs that can handle parsing ingredients and
+            importing recipes.
+          </p>
+          <p>
+            I used GraphQL and PostgresSQL for the strictly defined schemas and
+            with the help of Apollo client's caching capabilities, the client UX
+            is highly responsive.
           </p>
         </div>
         <div class="projectLinks">
@@ -165,18 +174,12 @@
       </section>
 
       <section id="aboutMe">
-        <div id="aboutContainer">
+        <div>
           <h2>About me</h2>
-          <p>Hello there, my name is Nick Wang.</p>
+          <p>Hi, my potential employers and recruiters, nice to meet you!</p>
+          <p>I am a web developer specializing in React and Dotnet.</p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident,
-            fugiat dolore, deserunt repudiandae minima labore laborum
-            architecto, sequi itaque veniam perferendis velit. Vel corporis
-            suscipit in illo nihil distinctio. Ab.
-          </p>
-          <p>
-            When I'm not coding I enjoy boxing, playing video games, and helping
-            people online with their web development problems.
+            Outside of work, I enjoy movies and racing minibikes competitively.
           </p>
         </div>
       </section>
@@ -189,7 +192,12 @@
           rel="noreferrer noopener"
           href="https://www.linkedin.com/public-profile/in/sher-sheikh-3a97a8189/?challengeId=AQE1KHOPqo2BKQAAAXRl_lxpzBYAQGAH85MFBqieb38zrc3YxEA-4eoeiIpY4QoCHhIxgp2ARMa6aXT1piVfgAeFQ9sj5V9Fzw&submissionId=903f9875-4c59-3216-dd2f-6a00f51dbd1e"
         >
-          Linkedin <img src="assets/linkedin.png" alt="linkedin.png" />
+          Nick Wang
+          <img
+            class="linkedin-logo"
+            src="assets/linkedIn.svg"
+            alt="linkedin.png"
+          />
         </a>
         <div id="emailContainer">
           <a
@@ -198,8 +206,15 @@
             target="_blank"
             rel="noreferrer noopener"
           >
-            <input id="email" value="sher.sheikh77@gmail.com" readonly />
-            <img src="assets/email.png" alt="email.png" />
+            nick@nickwangtech.com
+            <!-- need the input to make the copy function work -->
+            <input
+              id="email"
+              value="nick@nickwangtech.com"
+              readonly
+              style="display: none"
+            />
+            <img class="email-logo" src="assets/email.svg" alt="email.png" />
           </a>
           <button id="copyBtn">COPY</button>
         </div>
@@ -225,7 +240,7 @@
     </div>
     <footer>
       <a
-        href="https://github.com/sher-s7"
+        href="https://github.com/nickwang0808"
         target="_blank"
         rel="noreferrer noopener"
         >Nick Wang <img src="assets/github.png" alt="github"

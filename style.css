@@ -1,4 +1,3 @@
-@import url(patternBG.css);
 @import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
@@ -247,15 +246,15 @@ b.aftereffects {
   color: var(--fontColor);
 }
 
-#aboutMe p {
+/* #aboutMe p {
   padding: 10px;
-}
+} */
 
 #contactMe a {
   color: var(--fontColor);
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   font-size: 18px;
   text-decoration: none;
   background-color: rgba(0, 0, 0, 0.137);
@@ -263,6 +262,7 @@ b.aftereffects {
   margin-top: 5px;
   padding: 5px 5px 5px 15px;
   border-radius: 5px;
+  gap: 8px;
 }
 
 #contactMe,
@@ -279,6 +279,15 @@ b.aftereffects {
 #contactMe a img {
   width: 50px;
   margin-right: 5px;
+}
+
+.linkedin-logo {
+  padding: 8px;
+}
+
+.email-logo {
+  padding: 4px;
+  margin-right: 10px !important;
 }
 
 #email {
@@ -529,7 +538,7 @@ footer a {
   }
   #aboutMe p {
     max-width: 640px;
-    margin: 0;
+    font-size: 22px;
   }
 
   #aboutMe h2 {
